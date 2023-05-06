@@ -3,9 +3,16 @@
     padding: 0;
 }
 
+header {
+    background-color: #816e94;
+}
+
+.navegacion {
+    text-align: right;
+}
+
 .logo {
-    width: 50;
-    height: 50;
+    width: 150px; 
 }
 
 .menu li {
@@ -13,21 +20,65 @@
 }
 
 .card {
-    background-color: burlywood;
+    background-color: #8cc7a1;
     margin: 50px;
     width: 300px;
     height: 400px;
     padding: 20px;
-    border: solid 2px brown;
+    border: solid 2px #74226c;
     display: inline-block;
 }
 
+.card h2 {
+    text-align: center;
+}
+
 .card img {
-    width: 250px;
+    width: 300px;
+    height: 200px;
+    margin-top: 40px;
+
 }
 
 .card p {
-    margin-top: 150px;
+    margin-top: 50px;
     margin-bottom: 10px;
+}
+
+.card2 {
+    margin: 50px 50px 50px 500px;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    border: solid 2px #74226c;
+}
+
+.card2 h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.card2 p {
+    margin-bottom: 15px;
+}
+
+.card2 input {
+    margin-bottom: 10px;
+}
+
+.car {
+    margin: 50px;
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    border: solid 2px;
+
+}
+
+footer {
+    background-color: #4b2142;
+    color: white;
+    font-size: 12px;
+    text-align: center;
 }
 
